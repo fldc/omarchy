@@ -1,0 +1,7 @@
+#!/bin/bash
+
+VIAL_THEME=~/.config/omarchy/current/theme/asusctl.rgb
+
+if omarchy-cmd-present vialctl; then
+  vialctl $VIAL_THEME
+fi

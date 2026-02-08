@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Detect whether a keyboard with Vial firmware is connected.
+
+grep -q "vial:f64c2b3c" /sys/bus/usb/devices/*/serial 2>/dev/null
